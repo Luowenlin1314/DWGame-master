@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/float_center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/txt_file_name"
+            android:textColor="#bbff0000"
+            android:layout_marginBottom="@dimen/DIMEN_50dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text=""
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/v1_game_setting_bg"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/DIMEN_80dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_130dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_50dp">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/img_flag_game"
+                android:layout_marginLeft="@dimen/DIMEN_10dp"
+                android:layout_marginRight="@dimen/DIMEN_10dp"
+                android:src="@drawable/v1_game_setting_flag"
+                android:layout_width="@dimen/DIMEN_25dp"
+                android:layout_height="@dimen/DIMEN_25dp"/>
+
+            <TextView
+                android:text="Game Configuration"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/DIMEN_20sp"
+                android:background="#aaffffff"
+                android:layout_width="@dimen/DIMEN_200dp"
+                android:layout_height="@dimen/DIMEN_50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_40dp">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/img_flag_game_1"
+                android:layout_marginLeft="@dimen/DIMEN_10dp"
+                android:layout_marginRight="@dimen/DIMEN_10dp"
+                android:src="@drawable/v1_game_setting_flag"
+                android:layout_width="@dimen/DIMEN_25dp"
+                android:layout_height="@dimen/DIMEN_25dp"/>
+
+            <TextView
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:text="Coins to play："
+                android:textSize="@dimen/DIMEN_15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/txt_coin_play"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:text="5"
+                android:textSize="@dimen/DIMEN_15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_40dp">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/img_flag_game_2"
+                android:layout_marginLeft="@dimen/DIMEN_10dp"
+                android:layout_marginRight="@dimen/DIMEN_10dp"
+                android:src="@drawable/v1_game_setting_flag"
+                android:layout_width="@dimen/DIMEN_25dp"
+                android:layout_height="@dimen/DIMEN_25dp"/>
+
+            <TextView
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:text="Tickets per play："
+                android:textSize="@dimen/DIMEN_15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/txt_tickets_play"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:text="5"
+                android:textSize="@dimen/DIMEN_15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/DIMEN_10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_170dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_50dp">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/img_flag_account"
+                android:layout_marginLeft="@dimen/DIMEN_10dp"
+                android:layout_marginRight="@dimen/DIMEN_10dp"
+                android:src="@drawable/v1_game_setting_flag"
+                android:layout_width="@dimen/DIMEN_25dp"
+                android:layout_height="@dimen/DIMEN_25dp"/>
+
+            <TextView
+                android:text="Account"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/DIMEN_20sp"
+                android:background="#aaffffff"
+                android:layout_width="@dimen/DIMEN_200dp"
+                android:layout_height="@dimen/DIMEN_50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/DIMEN_45dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/DIMEN_5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total coins："
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/DIMEN_15sp" />
+
+                <TextView
+                    android:id="@+id/txt_coin_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/DIMEN_15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/DIMEN_5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total tickets："
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/DIMEN_15sp" />
+
+                <TextView
+                    android:id="@+id/txt_ticket_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/DIMEN_15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/DIMEN_5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total games played："
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/DIMEN_15sp" />
+
+                <TextView
+                    android:id="@+id/txt_game_play_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/DIMEN_15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/DIMEN_5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reset meters?"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/DIMEN_15sp" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/DIMEN_15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_20dp"
+                android:layout_marginTop="@dimen/DIMEN_10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img_account_yes"
+                        android:layout_width="@dimen/DIMEN_30dp"
+                        android:layout_height="@dimen/DIMEN_15dp"
+                        android:src="@drawable/v1_game_setting_next" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/DIMEN_15sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/DIMEN_20dp">
+
+                    <ImageView
+                        android:id="@+id/img_account_no"
+                        android:layout_width="@dimen/DIMEN_30dp"
+                        android:layout_height="@dimen/DIMEN_15dp"
+                        android:src="@drawable/v1_game_setting_next" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/DIMEN_15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_140dp"
+        android:layout_marginTop="@dimen/DIMEN_10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_flag_hardware"
+                android:layout_width="@dimen/DIMEN_25dp"
+                android:layout_height="@dimen/DIMEN_25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/DIMEN_10dp"
+                android:layout_marginRight="@dimen/DIMEN_10dp"
+                android:src="@drawable/v1_game_setting_flag" />
+
+            <TextView
+                android:layout_width="@dimen/DIMEN_200dp"
+                android:layout_height="@dimen/DIMEN_50dp"
+                android:background="#aaffffff"
+                android:gravity="center"
+                android:text="Hardware Test"
+                android:textColor="#000000"
+                android:textSize="@dimen/DIMEN_20sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/img_flag_hardware1"
+                android:layout_width="@dimen/DIMEN_25dp"
+                android:layout_height="@dimen/DIMEN_25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/DIMEN_10dp"
+                android:layout_marginRight="@dimen/DIMEN_10dp"
+                android:src="@drawable/v1_game_setting_flag" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/DIMEN_5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/txt_middle_blower"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Middle blower"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/DIMEN_15sp" />
+
+                        <ImageView
+                            android:id="@+id/img_txt_middle_blower"
+                            android:layout_width="@dimen/DIMEN_20dp"
+                            android:layout_height="@dimen/DIMEN_20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/v1_game_setting_next" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/txt_left_blower"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Left blower"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/DIMEN_15sp" />
+
+                        <ImageView
+                            android:id="@+id/img_txt_left_blower"
+                            android:layout_width="@dimen/DIMEN_20dp"
+                            android:layout_height="@dimen/DIMEN_20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/v1_game_setting_next" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/txt_right_blower"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Right blower"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/DIMEN_15sp" />
+
+                        <ImageView
+                            android:id="@+id/img_txt_right_blower"
+                            android:layout_width="@dimen/DIMEN_20dp"
+                            android:layout_height="@dimen/DIMEN_20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/v1_game_setting_next" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/DIMEN_5dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/txt_strobe"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Strobe"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/DIMEN_15sp" />
+
+                        <ImageView
+                            android:id="@+id/img_txt_strobe"
+                            android:layout_width="@dimen/DIMEN_20dp"
+                            android:layout_height="@dimen/DIMEN_20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/v1_game_setting_next" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/txt_smoke"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Smoke"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/DIMEN_15sp" />
+
+                        <ImageView
+                            android:id="@+id/img_txt_smoke"
+                            android:layout_width="@dimen/DIMEN_20dp"
+                            android:layout_height="@dimen/DIMEN_20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/v1_game_setting_next" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableBottom="@drawable/v1_game_setting_next"
+                        android:text="Middle blower"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/DIMEN_15sp"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:background="#90eaea"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_2dp"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_flag_save"
+            android:layout_width="@dimen/DIMEN_25dp"
+            android:layout_height="@dimen/DIMEN_25dp"
+            android:layout_marginLeft="@dimen/DIMEN_10dp"
+            android:layout_marginRight="@dimen/DIMEN_10dp"
+            android:src="@drawable/v1_game_setting_flag" />
+
+        <TextView
+            android:layout_width="@dimen/DIMEN_200dp"
+            android:layout_height="@dimen/DIMEN_35dp"
+            android:background="#aaffffff"
+            android:gravity="center"
+            android:text="Save Changes and exit"
+            android:textColor="#000000"
+            android:textSize="@dimen/DIMEN_15sp" />
+
+    </LinearLayout>
+</LinearLayout>
